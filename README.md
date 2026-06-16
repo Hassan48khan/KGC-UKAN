@@ -9,24 +9,9 @@ This repository contains the official implementation of KGC-UKAN.
 ## Architecture
 
 <p align="center">
-  <img src="figures/architecture.png" width="95%" alt="KGC-UKAN architecture"/>
+  <img src="model.png" width="95%" alt="KGC-UKAN architecture"/>
 </p>
 
-KGC-UKAN is a five-stage encoder–decoder built on Kolmogorov–Arnold layers with three task-specific modules:
-
-- **SAKE** — Spline-Adaptive Kolmogorov Edge block (deep encoder/decoder stages).
-- **KG-CSA** — KAN-Gated Cross-Scale ASPP bottleneck.
-- **PU-LASk** — Polarity-aware Uncertainty Linear-Attention skip connections.
-
-<p align="center">
-  <img src="figures/sake.png" width="32%" alt="SAKE"/>
-  <img src="figures/kgcsa.png" width="32%" alt="KG-CSA"/>
-  <img src="figures/pulask.png" width="32%" alt="PU-LASk"/>
-</p>
-
-> Place the figure files in a `figures/` folder (`architecture.png`, `sake.png`, `kgcsa.png`, `pulask.png`).
-
----
 
 ## Reproducibility
 
