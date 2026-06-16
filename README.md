@@ -1,2 +1,0 @@
-# KGC-UKAN
-KGC-UKAN
