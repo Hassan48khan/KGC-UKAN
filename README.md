@@ -1,6 +1,3 @@
-# KGC-UKAN
-
-**A Kolmogorov–Arnold U-Net with KAN-Gated Cross-Scale Context and Polarity-Aware Uncertainty Skips for Medical Image Segmentation**
 
 This repository contains the official implementation of KGC-UKAN.
 
